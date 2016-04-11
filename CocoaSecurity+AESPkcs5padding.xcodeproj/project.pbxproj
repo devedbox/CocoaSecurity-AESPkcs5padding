@@ -15,6 +15,8 @@
 		01BF415A1CBB883800135DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BF41581CBB883800135DC2 /* LaunchScreen.storyboard */; };
 		01BF41651CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF41641CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m */; };
 		01BF41701CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF416F1CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m */; };
+		01BF41841CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF41831CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.m */; };
+		BB5201581663608378CA41AD /* libPods-CocoaSecurity+AESPkcs5padding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDE8A250F759457FB05A701 /* libPods-CocoaSecurity+AESPkcs5padding.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		01BF416B1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaSecurity+AESPkcs5paddingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BF416F1CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity_AESPkcs5paddingUITests.m; sourceTree = "<group>"; };
 		01BF41711CBB883800135DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BF41821CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaSecurity+AESPkcs5padding.h"; sourceTree = "<group>"; };
+		01BF41831CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CocoaSecurity+AESPkcs5padding.m"; sourceTree = "<group>"; };
+		3C1B8BF565A10092CEC0EBEB /* Pods-CocoaSecurity+AESPkcs5padding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaSecurity+AESPkcs5padding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaSecurity+AESPkcs5padding/Pods-CocoaSecurity+AESPkcs5padding.debug.xcconfig"; sourceTree = "<group>"; };
+		3CDE8A250F759457FB05A701 /* libPods-CocoaSecurity+AESPkcs5padding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaSecurity+AESPkcs5padding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38F99FC6E878FFD41F921DC /* Pods-CocoaSecurity+AESPkcs5padding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaSecurity+AESPkcs5padding.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaSecurity+AESPkcs5padding/Pods-CocoaSecurity+AESPkcs5padding.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5201581663608378CA41AD /* libPods-CocoaSecurity+AESPkcs5padding.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				01BF41631CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests */,
 				01BF416E1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests */,
 				01BF41481CBB883700135DC2 /* Products */,
+				9F1BA7DAD9072B59D1E99C1A /* Pods */,
+				8469310AC250C808172D142C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +116,7 @@
 				01BF41501CBB883800135DC2 /* ViewController.h */,
 				01BF41511CBB883800135DC2 /* ViewController.m */,
 				01BF41531CBB883800135DC2 /* Main.storyboard */,
+				01BF41811CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding */,
 				01BF41561CBB883800135DC2 /* Assets.xcassets */,
 				01BF41581CBB883800135DC2 /* LaunchScreen.storyboard */,
 				01BF415B1CBB883800135DC2 /* Info.plist */,
@@ -140,6 +151,32 @@
 			path = "CocoaSecurity+AESPkcs5paddingUITests";
 			sourceTree = "<group>";
 		};
+		01BF41811CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding */ = {
+			isa = PBXGroup;
+			children = (
+				01BF41821CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.h */,
+				01BF41831CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.m */,
+			);
+			path = "CocoaSecurity+AESPkcs5padding";
+			sourceTree = "<group>";
+		};
+		8469310AC250C808172D142C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDE8A250F759457FB05A701 /* libPods-CocoaSecurity+AESPkcs5padding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1BA7DAD9072B59D1E99C1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B8BF565A10092CEC0EBEB /* Pods-CocoaSecurity+AESPkcs5padding.debug.xcconfig */,
+				D38F99FC6E878FFD41F921DC /* Pods-CocoaSecurity+AESPkcs5padding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01BF41741CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5padding" */;
 			buildPhases = (
+				6FD4DA4779E2B311049FC99E /* Check Pods Manifest.lock */,
 				01BF41431CBB883700135DC2 /* Sources */,
 				01BF41441CBB883700135DC2 /* Frameworks */,
 				01BF41451CBB883700135DC2 /* Resources */,
+				EFA2843018F661A2DFA44444 /* Embed Pods Frameworks */,
+				ED69A176CAA4AB1F61E4B079 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,11 +305,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FD4DA4779E2B311049FC99E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED69A176CAA4AB1F61E4B079 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaSecurity+AESPkcs5padding/Pods-CocoaSecurity+AESPkcs5padding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA2843018F661A2DFA44444 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaSecurity+AESPkcs5padding/Pods-CocoaSecurity+AESPkcs5padding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01BF41431CBB883700135DC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BF41841CBB896900135DC2 /* CocoaSecurity+AESPkcs5padding.m in Sources */,
 				01BF41521CBB883800135DC2 /* ViewController.m in Sources */,
 				01BF414F1CBB883800135DC2 /* AppDelegate.m in Sources */,
 				01BF414C1CBB883700135DC2 /* main.m in Sources */,
@@ -411,6 +500,7 @@
 		};
 		01BF41751CBB883800135DC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1B8BF565A10092CEC0EBEB /* Pods-CocoaSecurity+AESPkcs5padding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5padding/Info.plist";
@@ -422,6 +512,7 @@
 		};
 		01BF41761CBB883800135DC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38F99FC6E878FFD41F921DC /* Pods-CocoaSecurity+AESPkcs5padding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5padding/Info.plist";
@@ -496,6 +587,7 @@
 				01BF41761CBB883800135DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01BF41771CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +596,7 @@
 				01BF41791CBB883800135DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01BF417A1CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +605,7 @@
 				01BF417C1CBB883800135DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
