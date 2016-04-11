@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BF414C1CBB883700135DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF414B1CBB883700135DC2 /* main.m */; };
+		01BF414F1CBB883800135DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF414E1CBB883800135DC2 /* AppDelegate.m */; };
+		01BF41521CBB883800135DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF41511CBB883800135DC2 /* ViewController.m */; };
+		01BF41551CBB883800135DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BF41531CBB883800135DC2 /* Main.storyboard */; };
+		01BF41571CBB883800135DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BF41561CBB883800135DC2 /* Assets.xcassets */; };
+		01BF415A1CBB883800135DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BF41581CBB883800135DC2 /* LaunchScreen.storyboard */; };
+		01BF41651CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF41641CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m */; };
+		01BF41701CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BF416F1CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BF41611CBB883800135DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BF413F1CBB883700135DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BF41461CBB883700135DC2;
+			remoteInfo = "CocoaSecurity+AESPkcs5padding";
+		};
+		01BF416C1CBB883800135DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BF413F1CBB883700135DC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BF41461CBB883700135DC2;
+			remoteInfo = "CocoaSecurity+AESPkcs5padding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BF41471CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaSecurity+AESPkcs5padding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF414B1CBB883700135DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BF414D1CBB883800135DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01BF414E1CBB883800135DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01BF41501CBB883800135DC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01BF41511CBB883800135DC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01BF41541CBB883800135DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BF41561CBB883800135DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BF41591CBB883800135DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01BF415B1CBB883800135DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BF41601CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaSecurity+AESPkcs5paddingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF41641CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity_AESPkcs5paddingTests.m; sourceTree = "<group>"; };
+		01BF41661CBB883800135DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BF416B1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CocoaSecurity+AESPkcs5paddingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BF416F1CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaSecurity_AESPkcs5paddingUITests.m; sourceTree = "<group>"; };
+		01BF41711CBB883800135DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BF41441CBB883700135DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF415D1CBB883800135DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF41681CBB883800135DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BF413E1CBB883700135DC2 = {
+			isa = PBXGroup;
+			children = (
+				01BF41491CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */,
+				01BF41631CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests */,
+				01BF416E1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests */,
+				01BF41481CBB883700135DC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01BF41481CBB883700135DC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BF41471CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding.app */,
+				01BF41601CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests.xctest */,
+				01BF416B1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BF41491CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */ = {
+			isa = PBXGroup;
+			children = (
+				01BF414D1CBB883800135DC2 /* AppDelegate.h */,
+				01BF414E1CBB883800135DC2 /* AppDelegate.m */,
+				01BF41501CBB883800135DC2 /* ViewController.h */,
+				01BF41511CBB883800135DC2 /* ViewController.m */,
+				01BF41531CBB883800135DC2 /* Main.storyboard */,
+				01BF41561CBB883800135DC2 /* Assets.xcassets */,
+				01BF41581CBB883800135DC2 /* LaunchScreen.storyboard */,
+				01BF415B1CBB883800135DC2 /* Info.plist */,
+				01BF414A1CBB883700135DC2 /* Supporting Files */,
+			);
+			path = "CocoaSecurity+AESPkcs5padding";
+			sourceTree = "<group>";
+		};
+		01BF414A1CBB883700135DC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BF414B1CBB883700135DC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BF41631CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BF41641CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m */,
+				01BF41661CBB883800135DC2 /* Info.plist */,
+			);
+			path = "CocoaSecurity+AESPkcs5paddingTests";
+			sourceTree = "<group>";
+		};
+		01BF416E1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01BF416F1CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m */,
+				01BF41711CBB883800135DC2 /* Info.plist */,
+			);
+			path = "CocoaSecurity+AESPkcs5paddingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BF41461CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF41741CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5padding" */;
+			buildPhases = (
+				01BF41431CBB883700135DC2 /* Sources */,
+				01BF41441CBB883700135DC2 /* Frameworks */,
+				01BF41451CBB883700135DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaSecurity+AESPkcs5padding";
+			productName = "CocoaSecurity+AESPkcs5padding";
+			productReference = 01BF41471CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BF415F1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF41771CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingTests" */;
+			buildPhases = (
+				01BF415C1CBB883800135DC2 /* Sources */,
+				01BF415D1CBB883800135DC2 /* Frameworks */,
+				01BF415E1CBB883800135DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BF41621CBB883800135DC2 /* PBXTargetDependency */,
+			);
+			name = "CocoaSecurity+AESPkcs5paddingTests";
+			productName = "CocoaSecurity+AESPkcs5paddingTests";
+			productReference = 01BF41601CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01BF416A1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BF417A1CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingUITests" */;
+			buildPhases = (
+				01BF41671CBB883800135DC2 /* Sources */,
+				01BF41681CBB883800135DC2 /* Frameworks */,
+				01BF41691CBB883800135DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BF416D1CBB883800135DC2 /* PBXTargetDependency */,
+			);
+			name = "CocoaSecurity+AESPkcs5paddingUITests";
+			productName = "CocoaSecurity+AESPkcs5paddingUITests";
+			productReference = 01BF416B1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BF413F1CBB883700135DC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = devedbox;
+				TargetAttributes = {
+					01BF41461CBB883700135DC2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01BF415F1CBB883800135DC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01BF41461CBB883700135DC2;
+					};
+					01BF416A1CBB883800135DC2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01BF41461CBB883700135DC2;
+					};
+				};
+			};
+			buildConfigurationList = 01BF41421CBB883700135DC2 /* Build configuration list for PBXProject "CocoaSecurity+AESPkcs5padding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BF413E1CBB883700135DC2;
+			productRefGroup = 01BF41481CBB883700135DC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BF41461CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */,
+				01BF415F1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingTests */,
+				01BF416A1CBB883800135DC2 /* CocoaSecurity+AESPkcs5paddingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BF41451CBB883700135DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF415A1CBB883800135DC2 /* LaunchScreen.storyboard in Resources */,
+				01BF41571CBB883800135DC2 /* Assets.xcassets in Resources */,
+				01BF41551CBB883800135DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF415E1CBB883800135DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF41691CBB883800135DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BF41431CBB883700135DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF41521CBB883800135DC2 /* ViewController.m in Sources */,
+				01BF414F1CBB883800135DC2 /* AppDelegate.m in Sources */,
+				01BF414C1CBB883700135DC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF415C1CBB883800135DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF41651CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BF41671CBB883800135DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF41701CBB883800135DC2 /* CocoaSecurity_AESPkcs5paddingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BF41621CBB883800135DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BF41461CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */;
+			targetProxy = 01BF41611CBB883800135DC2 /* PBXContainerItemProxy */;
+		};
+		01BF416D1CBB883800135DC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BF41461CBB883700135DC2 /* CocoaSecurity+AESPkcs5padding */;
+			targetProxy = 01BF416C1CBB883800135DC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BF41531CBB883800135DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BF41541CBB883800135DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BF41581CBB883800135DC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BF41591CBB883800135DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BF41721CBB883800135DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01BF41731CBB883800135DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BF41751CBB883800135DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5padding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5padding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01BF41761CBB883800135DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5padding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5padding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01BF41781CBB883800135DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5paddingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5paddingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaSecurity+AESPkcs5padding.app/CocoaSecurity+AESPkcs5padding";
+			};
+			name = Debug;
+		};
+		01BF41791CBB883800135DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5paddingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5paddingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaSecurity+AESPkcs5padding.app/CocoaSecurity+AESPkcs5padding";
+			};
+			name = Release;
+		};
+		01BF417B1CBB883800135DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5paddingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5paddingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CocoaSecurity+AESPkcs5padding";
+			};
+			name = Debug;
+		};
+		01BF417C1CBB883800135DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CocoaSecurity+AESPkcs5paddingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "devedbox.CocoaSecurity-AESPkcs5paddingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CocoaSecurity+AESPkcs5padding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BF41421CBB883700135DC2 /* Build configuration list for PBXProject "CocoaSecurity+AESPkcs5padding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF41721CBB883800135DC2 /* Debug */,
+				01BF41731CBB883800135DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BF41741CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5padding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF41751CBB883800135DC2 /* Debug */,
+				01BF41761CBB883800135DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01BF41771CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF41781CBB883800135DC2 /* Debug */,
+				01BF41791CBB883800135DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01BF417A1CBB883800135DC2 /* Build configuration list for PBXNativeTarget "CocoaSecurity+AESPkcs5paddingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BF417B1CBB883800135DC2 /* Debug */,
+				01BF417C1CBB883800135DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BF413F1CBB883700135DC2 /* Project object */;
+}
