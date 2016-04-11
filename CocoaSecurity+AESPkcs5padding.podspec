@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   DESC
+                   This is personal.
 
-  s.homepage     = "https://github.com/devedbox/CocoaSecurity+AESPkcs5padding"
+  s.homepage     = "https://github.com/devedbox/CocoaSecurity-AESPkcs5padding"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/devedbox/CocoaSecurity+AESPkcs5padding.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/devedbox/CocoaSecurity-AESPkcs5padding.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "CocoaSecurity+AESPkcs5padding/CocoaSecurity+AESPkcs5padding/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+#  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "CocoaSecurity", "~> 1.2.0"
